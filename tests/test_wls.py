@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from array import array
 import unittest
+from array import array
 
 from wls import wls
 
@@ -86,10 +86,10 @@ class TestWLS(unittest.TestCase):
 
     def test_iterable_parameters_allowed(self):
         x = (0, 1, 2, 3, 4)
-        y = array('i', [1, 2, 0, 1, 1])
+        y = array("i", [1, 2, 0, 1, 1])
         w = 1
         self._assert_regression_model(y, x, w, expected=(1.2, -0.1))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
