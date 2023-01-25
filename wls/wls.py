@@ -1,10 +1,7 @@
-#!/usr/bin/env python
-
 ########################################################################
 #
 # wls - Calculate slope & intercept using weighted least squares method.
-# inspired by statsmodels.regression.linear_model.WLS
-# https://www.statsmodels.org/dev/generated/statsmodels.regression.linear_model.WLS.html
+# does not require any extra dependencies e.g. statsmodels, pandas, numpy
 #
 ########################################################################
 
